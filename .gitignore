@@ -1,0 +1,72 @@
+# ===========================
+# PaperMC Plugin (Kotlin + Gradle)
+# ===========================
+
+# --- Gradle build directories ---
+/build/
+/out/
+/.Gradle/
+/.gradle/
+/classes/
+/bin/
+/target/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- VS Code ---
+.vscode/
+
+# --- System / OS files ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# --- Kotlin / Java generated files ---
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# --- Gradle Wrapper ---
+# Keep wrapper JAR and properties to ensure consistent builds
+gradle/
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Dependency libraries ---
+/libs/
+
+# --- Minecraft server / Paper test server ---
+# Ignore local test environment and runtime data
+/server/
+plugins/
+logs/
+cache/
+world/
+world_nether/
+world_the_end/
+bukkit.yml
+spigot.yml
+paper.yml
+eula.txt
+ops.json
+whitelist.json
+usercache.json
+
+# --- Temporary and backup files ---
+*.swp
+*.bak
+*.old
+*.orig
+
+# --- IDE caches ---
+.idea/
+.gradle/
+out/
+build/

@@ -1,0 +1,4 @@
+name: pickaxe
+version: '1.0-SNAPSHOT'
+main: com.example.pickaxe.ThreeByThreePlugin
+api-version: '1.21'

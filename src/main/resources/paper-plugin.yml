@@ -1,4 +1,4 @@
 name: pickaxe
 version: '1.0-SNAPSHOT'
-main: com.example.pickaxe.BlockBreaker3D
+main: com.example.pickaxe.Pickaxe
 api-version: '1.21'

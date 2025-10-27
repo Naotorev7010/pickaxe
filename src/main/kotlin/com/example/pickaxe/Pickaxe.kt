@@ -44,7 +44,6 @@ class Pickaxe : JavaPlugin(), Listener {
                     for (dz in -1..1){
                         if(dx == 0 && dz == 0)continue
                          val target = world.getBlockAt( cx + dx,cy, cz + dz)
-                        println("壊したブロック上下の座標は$target")
                         breakBlock(target,player,item)
                     }
                 }
@@ -56,7 +55,6 @@ class Pickaxe : JavaPlugin(), Listener {
                     for (dy in -1..1){
                         if (dx == 0 && dy == 0)continue //プレイヤーがすでに壊したブロック
                         val target = world.getBlockAt(cx + dx,cy + dy,cz)
-                        println("壊したブロック南北の座標は$target")
                         breakBlock(target,player,item)
                     }
                 }
@@ -68,7 +66,6 @@ class Pickaxe : JavaPlugin(), Listener {
                     for (dz in -1..1){
                         if(dy == 0 && dz == 0)continue//プレイヤーがすでに壊したブロック
                         val target = world.getBlockAt(cx ,cy + dy,cz + dz)
-                        println("壊したブロック東西の座標は$target")
                         breakBlock(target,player,item)
                     }
                 }
